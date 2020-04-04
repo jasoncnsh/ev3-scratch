@@ -3,15 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to EV3 Scratch tutorial's documentation!
-================================================
+Bienvenue au tutoriel EV3 Scratch
+=================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    1_intro/intro
-
 
 
 Indices and tables
