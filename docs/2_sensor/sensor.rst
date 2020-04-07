@@ -1,7 +1,7 @@
 Sensor
 ======
 
-Sensors perceive the invironment and send data to the robot.
+Sensors perceive the environment and send data to the robot.
 
 Live display
 ------------
