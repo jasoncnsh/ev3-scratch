@@ -13,6 +13,8 @@ Welcome to the EV3 Classroom
    1_intro/intro
    2_sensor/sensor
    3_motor/motor
+   3_remote/remote
+   4_display/display
    4_sound/sound
    5_arm/arm
    6_draw/draw
