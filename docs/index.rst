@@ -13,9 +13,10 @@ Welcome to the EV3 Classroom
    1_intro/intro
    2_sensor/sensor
    3_motor/motor
-   4_music/music
+   4_sound/sound
    5_arm/arm
    6_draw/draw
+   6_morse/morse
 
 
 Indices and tables

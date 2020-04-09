@@ -131,8 +131,7 @@ Now we can use the **polygon** function to draw a pentagon with a side length of
 
 .. image:: polygon_call.png
 
-You can download this program: 
-:download:`draw1.lmsp <draw1.lmsp>`
+
 
 Draw a star
 -----------
@@ -149,6 +148,10 @@ We create a **star** function which allows as to draw **n/m** star polygons.
 Now lets draw such a 5-pointed star
 
 .. image:: star_call.png
+
+You can download the programs so far: 
+:download:`draw1.lmsp <draw1.lmsp>`
+
 
 Draw a letter
 -------------
@@ -192,6 +195,7 @@ We define the letter **L**
 And now we can write the word **ELLE**
 
 .. image:: letter_elle.png
+
 
 Draw numbers in 7-segment style
 -------------------------------
