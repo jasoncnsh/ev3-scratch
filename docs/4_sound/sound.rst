@@ -171,3 +171,63 @@ The pitch has been initalized to the value 60. These numbers correspond to::
     63 D#
     64 E
 
+Use the rotary encoder
+----------------------
+
+We can use the rotary encoder to change pitch.
+In get the pitch in half-tone steps we: 
+
+- divide by 45 to adjust sensitivity to 45° steps
+- offset by 60 to start with the C
+- take the floor to get integers (half tones)
+
+.. image:: pitch_rotary.png
+
+Play a melody
+-------------
+
+We can play beeps in sequence to play a melody.
+For example to play the music of this famous French folk song **Frère Jacques** 
+
+.. image:: jacques.gif
+
+It is quite straightforward to program the first measure.
+If we want 120 beats per minute (120 bpm) each beat must be 0.5 seconds.
+
+.. image:: music_seq.png
+
+Change the tempo
+----------------
+
+If we want to change the tempo, then it would be better to code the duration of the beep with a variable.
+We create the variable **t** (time) and initialize it to 0.5 seconds.
+Also, we repeat the first 4 notes in a loop.
+
+.. image:: music_loop.png
+
+With the **up/down** buttons we can select the tempo.
+
+.. image:: music_tempo.png
+
+Short and long notes
+--------------------
+
+Not all the notes have the same duration. 
+The white ones are twice as long. 
+We use the expression ``t*2`` as the duration.
+
+.. image:: music_part2.png
+
+On the other hand some other notes only have half the lenght.
+We use the expression ``t/2`` for their duration.
+
+.. image:: music_part3.png
+
+And this is the final part.
+
+.. image:: music_part4.png
+
+Download: 
+:download:`music.lmsp <music.lmsp>`
+
+
