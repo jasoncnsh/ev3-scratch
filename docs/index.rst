@@ -16,9 +16,15 @@ Welcome to the EV3 Classroom
    3_remote/remote
    4_display/display
    4_sound/sound
-   5_arm/arm
+   4_stats/stats
+   4_timer/timer
+   5_clock/clock
    6_draw/draw
    6_morse/morse
+   7_arm/arm
+   7_gyroboy/gyroboy
+   7_puppy/puppy
+   7_sorter/sorter
 
 
 Indices and tables

@@ -1,7 +1,7 @@
-Robot arm
+Robot Arm
 =========
 
-In this chapter we move a robot arm.
+In this chapter we control a robot arm.
 You can:
 
 - lift the arm
