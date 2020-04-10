@@ -17,9 +17,59 @@ Connect the EV3
 ---------------
 
 In order to download programs, your robot needs to be connected via USB cable or Bluetooth.
-When your EV3 is connected to your computer, the red dot next to the EV3 icon turns green, and all the attached motors and sensors are shown.
+When your EV3 is connected to your computer, the red dot next to the EV3 brick icon turns green, and all the attached motors and sensors are shown.
 
 .. image:: intro_icons.png
+
+The dashboard
+-------------
+
+When your EV3 is connected you can click the brick icon to open the dashboard.
+The dashboard provides useful information about:
+
+- EV3 name
+- firmware version
+- battery level
+- motors and sensors
+- real-time values
+
+.. image:: dashboard.png
+
+The dashboard displays real-time values of sensors and motors.
+You can choose which value you want display.
+
+.. image:: motor_value.png
+
+An **Update** button will appear when new firmware is available.
+
+You can rename the brick by clicking on the ``...`` menu.
+
+.. image:: rename.png
+
+The programming canvas
+----------------------
+
+The **programming canvas** is where you will create programs. It consists of:
+
+- block palette
+- programming area
+- tab bar with open projects
+- dashboard overview
+- controls to zoom, redo, undo, download, etc.
+
+The block palette
+-----------------
+
+The **block palette** contains the available blocks grouped by functionality.
+
+.. image:: palette.png
+
+- to use a block, drag it to the canvas.
+- to delete a block, drag it back to the palette
+
+To zoom, redo and undo use these 5 buttons
+
+.. image:: controls.png
 
 Display eyes
 ------------

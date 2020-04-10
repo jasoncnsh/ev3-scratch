@@ -3,8 +3,8 @@ Display
 
 The EV3 can display images and write text.
 
-Display images
---------------
+Display an image
+----------------
 
 You can display an image for a specified time duration.
 The following program displays neutral eyes for 2 seconds.
@@ -44,8 +44,8 @@ With the **up/down** buttons you can move the eyes up and down.
 
 .. image:: eyes_up.png
 
-Beating heart
--------------
+Show a beating heart
+--------------------
 
 By displaying two images in repetition we can create a simple animation.
 The following loop displays two hearts, a small one and a larger one.
@@ -63,8 +63,8 @@ The **up/down** buttons serve to change the **time** variable by increments of 0
 
 .. image:: heart_set.png
 
-Write text
-----------
+Write lines of text
+-------------------
 
 You can write text to one of 12 lines.
 The following program sets the variable **x** to 1 and increases it to 12 in a loop,
@@ -119,8 +119,8 @@ It produces output like this::
     y=20
                         x
 
-Display all sensors
--------------------
+Display sensor values
+---------------------
 
 Sometimes it is useful to display multiple sensor values on the display.
 This program displays 4 sensor values on the first 4 lines.
@@ -154,4 +154,19 @@ It produces output like this::
     color = 2
     distance = 34.5
 
+Set the status light
+--------------------
 
+The status light around the buttons can be set to: 
+
+- green
+- orange
+- red
+
+It also can be set to flashing mode called:
+
+- green pulse
+- orange pulse
+- red pulse
+
+.. image:: status_light.png

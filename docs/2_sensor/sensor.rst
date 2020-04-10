@@ -3,8 +3,8 @@ Sensor
 
 Sensors perceive the environment and send data to the robot.
 
-Live display
-------------
+Real-time dasboard
+------------------
 
 The sensors are connected to the robot via ports 1 to 4.
 Small icons at the top of the program show the current values.
