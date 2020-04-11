@@ -1,0 +1,36 @@
+{
+    "autoDelete": true,
+    "created": "2020-02-07T15:58:32.427Z",
+    "hardware": {
+        "=h{q!08=bSKjnG!;0#eZ": {
+            "address": "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC1@14/XHC1@14000000/PRT2@14200000/EV3@14200000/Xfer data to and from EV3 brick@0/AppleUserUSBHostHIDDevice",
+            "description": "",
+            "connection": "usb-hid",
+            "name": "EV3",
+            "type": "ev3",
+            "serial": "0016533d0a6c",
+            "hubState": {
+                "programRunning": false
+            },
+            "lastConnectedSerial": "0016533d0a6c"
+        }
+    },
+    "id": "lKDY_8BjjFjI",
+    "lastsaved": "2020-04-11T16:00:46.620Z",
+    "size": 0,
+    "name": "Project 1",
+    "slotIndex": 0,
+    "showAllBlocks": false,
+    "state": {
+        "playMode": "download",
+        "canvasDrawerTab": "monitorTab"
+    },
+    "version": 1,
+    "zoomLevel": 0.8250000000000002,
+    "workspaceX": 120.00000000000034,
+    "workspaceY": 220.00000000000006,
+    "extensions": [
+        "ev3events",
+        "ev3display"
+    ]
+}

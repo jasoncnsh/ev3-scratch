@@ -15,6 +15,7 @@ Welcome to the EV3 Classroom
    3_motor/motor
    3_remote/remote
    4_display/display
+   4_scope/scope
    4_sound/sound
    4_stats/stats
    4_timer/timer
@@ -25,6 +26,7 @@ Welcome to the EV3 Classroom
    7_gyroboy/gyroboy
    7_puppy/puppy
    7_sorter/sorter
+   9_annex/annex
 
 
 Indices and tables

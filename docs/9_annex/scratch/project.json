@@ -1,0 +1,125 @@
+{
+    "targets": [
+        {
+            "isStage": true,
+            "name": "Stage",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "14d134f088239ac481523b3c2c6ecd8c",
+                    "name": "backdrop1",
+                    "bitmapResolution": 1,
+                    "md5ext": "14d134f088239ac481523b3c2c6ecd8c.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 47,
+                    "rotationCenterY": 55
+                }
+            ],
+            "sounds": [
+                {
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "name": "Meow",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 0,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        },
+        {
+            "isStage": false,
+            "name": "7OQe8zk4TyyTWFib4vkW",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "xYhpfMLy1ynSQzb93O1W": {
+                    "opcode": "ev3events_whenProgramStarts",
+                    "next": "]}sBQp1+Wg:TSU[;Qw?S",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 34,
+                    "y": -19
+                },
+                "]}sBQp1+Wg:TSU[;Qw?S": {
+                    "opcode": "ev3display_displayImageForTime",
+                    "next": null,
+                    "parent": "xYhpfMLy1ynSQzb93O1W",
+                    "inputs": {
+                        "DURATION": [
+                            1,
+                            [
+                                4,
+                                "2"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "IMAGE": [
+                            "Neutral",
+                            null
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "93ca32a536da1698ea979f183679af29",
+                    "name": "8my-jkz-3zNRywbMFwa-",
+                    "bitmapResolution": 1,
+                    "md5ext": "93ca32a536da1698ea979f183679af29.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 180
+                }
+            ],
+            "sounds": [
+                {
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "name": "Meow",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 100,
+            "visible": true,
+            "x": 0,
+            "y": 0,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        }
+    ],
+    "monitors": [],
+    "extensions": [
+        "ev3events",
+        "ev3display"
+    ],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "0.2.0-prerelease.20190619042313",
+        "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) EV3Classroom/1.0.0 Chrome/69.0.3497.106 Electron/4.0.4 Safari/537.36"
+    }
+}
